@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align:center;
+}
+
+form {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+  max-width:300px;
+}
+
+label {
+  display:block;
+  margin: 5px auto;
+}
+
+input {
+  box-sizing: border-box;
+  display:block;
+  width:100%
+}
+
+button {
+  display:block;
+  margin: 5px auto;
+}
