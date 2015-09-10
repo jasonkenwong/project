@@ -29,3 +29,17 @@ button {
   display:block;
   margin: 5px auto;
 }
+
+.radioLabel {
+  font-style:italic;
+  display:inline;
+}
+
+input[type="radio"] {
+  width:auto;
+  display:inline;
+}
+
+.btnSave {
+  margin: 10px auto;
+}

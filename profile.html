@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+  </head>
+  <body>
+    <h1>Your Profile</h1>
+    <form action="/profile/edit" method="post">
+      <label for="profileEmail">Email</label>
+      <input type="email" name="profileEmail" id="profileEmail" placeholder="Enter Email here...">
+      <label for="profilePassword">Password</label>
+      <input type="password" name="profilePassword" id="profilePassword" placeholder="Enter Password here...">
+      <label for="profileFName">First Name</label>
+      <input type="text" name="profileFName" id="profileFName" placeholder="Enter First Name here...">
+      <label for="profileLName">Last Name</label>
+      <input type="text" name="profileLName" id="profileLName" placeholder="Enter Last Name here...">
+      <label>Gender</label>
+      <label class="radioLabel" for="profileGenderM">Male</label>
+      <input type="radio" name="profileGender" value="male" id="profileGenderM">
+      <label class="radioLabel"for="profileGenderF">Female</label>
+      <input type="radio" name="profileGender" value="female" id="profileGenderF">
+      <button class="btnSave" type="button">Save</button>
+    </form>
+  </body>
+</html>
